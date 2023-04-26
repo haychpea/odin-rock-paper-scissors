@@ -4,10 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Odin Project Rock Paper Scissors</title>
 </head>
 <body>
-    <h1>This game is played in the console, press F12</h1>
+    <div class="title">
+        <h1>Rock Paper Scissors Game</h1>
+    </div>
+    <div class="ui">
+        <div class="buttons">
+            <button id="rock" class="playerbutton"><img src="imgs/rock.png" alt="rock" width="35px">Rock</button>
+            <button id="paper" class="playerbutton"><img src="imgs/paper.png" alt="paper" width="50px"> Paper</button>
+            <button id="scissors" class="playerbutton"><img src="imgs/scissors.png" alt="scissors" width="45px">Scissors</button>
+        </div>
+        <div class="stats">
+            Click a Button to Play! First to 5 points wins!
+        </div>
+        <div class="scores">
+            <div class="playerscore score">
+                <h3>Player Score</h3>
+                <h4>0</h4>
+            </div>
+            <div class="compscore score">
+                <h3>Computer Score</h3>
+                <h4>0</h4>
+            </div>
+        </div>
+        <div class="results">
+            <div class="resultsText">
+                test
+            </div>
+            <button class="resetButton">Reset Game</button>
+        </div>
+    </div>
 </body>
 <script src="./main.js"></script>
 </html>

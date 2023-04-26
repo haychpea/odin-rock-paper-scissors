@@ -1,0 +1,85 @@
+/*{
+    border: solid green;
+}
+*/
+body {
+    border:0;
+    margin:20px;
+    padding:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+}
+
+button{
+    border-radius: 10px;
+    font-size: large;
+    padding: 5px;
+    aspect-ratio: 6;
+    background-color: #F5F5F5;
+}
+
+button:hover:enabled{
+    background-color: #9b9b9b;
+}
+
+.buttons{
+    display:flex;
+    justify-content: space-around;
+    gap:10px;
+    flex-wrap: wrap;
+}
+
+.playerbutton{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+}
+
+.stats{
+    text-align: center;
+    padding: 10px;
+    background-color: #F5F5F5;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.scores{
+    background-color: #F5F5F5;
+    margin-top:15px;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    flex: auto;
+    border-radius: 10px;
+}
+
+.score{
+    text-align:center;
+    min-width:125px;
+}
+
+.results{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-top:5px;
+}
+
+.resultsText{
+    display:block;
+    font-size: 20px;
+    visibility: hidden;
+}
+
+.resetButton{
+    margin:5px;
+    font-size: 16px;
+    visibility: hidden;
+}
